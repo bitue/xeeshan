@@ -25,7 +25,7 @@ h1 {
 }
 
 .yellow {
-    color: orange;
+    color: orange; font-weight: 700; 
 }
 
 .button a {
@@ -83,4 +83,11 @@ a {
     background-image: url("img/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+/* experience section */
+.flex-div{
+    display: flex; justify-content: space-around; align-items: center;
+}
+.exp{
+    padding: 20px;
 }
