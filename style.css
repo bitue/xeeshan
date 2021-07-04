@@ -91,6 +91,9 @@ a {
 .exp{
     padding-left: 20px; box-shadow: 5px 5px 10px black ; border-radius: 15px; margin: 10px;
 }
+#ex{
+    padding-left: 20px;
+}
 #exx{
     padding-left: 20px; background-image: url("img/exp-bg.png");
     background-repeat: no-repeat; background-position: 20px 30px; 
