@@ -127,6 +127,9 @@ a {
     }
     .left-dream img{
         width: 60%;
+    } 
+    .mar{
+        margin: 20px 0;
     }
 
 }
