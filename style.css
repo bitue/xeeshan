@@ -25,7 +25,8 @@ h1 {
 }
 
 .yellow {
-    color: orange; font-weight: 700; 
+    color: orange;
+    font-weight: 700;
 }
 
 .button a {
@@ -84,19 +85,48 @@ a {
     background-repeat: no-repeat;
     background-position: right;
 }
+
 /* experience section */
-.flex-div{
-    display: flex; justify-content: space-around; align-items: center;
+
+.flex-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.exp{
-    padding-left: 20px; box-shadow: 5px 5px 10px black ; border-radius: 15px; margin: 10px;
+
+.exp {
+    padding-left: 20px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    margin: 10px;
     border-right: 5px solid orangered;
-    
 }
-#ex{
+
+#ex {
     padding-left: 20px;
 }
-#exx{
-    padding-left: 20px; background-image: url("img/exp-bg.png");
-    background-repeat: no-repeat; background-position: 20px 30px; 
+
+#exx {
+    padding-left: 20px;
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: 20px 30px;
+}
+
+/* ``````````` using media query ```````````````` */
+
+@media screen and (max-width:1024px){
+    .first ,.flex-div {
+        flex-direction: column;
+    }
+    .dream{
+        flex-direction: column-reverse;
+    }
+    .first-right img{
+        width: 70%; margin: 0 auto;
+    }
+    .left-dream img{
+        width: 60%;
+    }
+
 }
